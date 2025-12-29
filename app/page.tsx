@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { ArrowRight, Zap, Network, TrendingUp, Cpu } from "lucide-react"
+import { ArrowRight, Zap, Cpu, Code2, BarChart3 } from "lucide-react"
 
 export default function Home() {
   const handleEmailClick = () => {
@@ -30,11 +30,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-40 backdrop-blur-lg bg-background/40 border-b border-primary/20">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-          <div className="text-2xl font-bold tracking-widest">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary to-accent animate-glow">
-              HARDIK
-            </span>
-          </div>
+          <div className="text-lg font-bold tracking-widest text-muted-foreground">FLOWCRAFT</div>
           <div className="flex items-center gap-8">
             <a
               href="#solutions"
@@ -64,14 +60,14 @@ export default function Home() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-6xl md:text-7xl font-bold tracking-tight leading-tight text-balance">
-                Payment Rails{" "}
+                Automate Everything.{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                  That Scale
+                  Build Smart Ops.
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl leading-relaxed">
-                UPI, credit cards, PPI, BBPS. AI-powered automation. Reconciliation that works. Building fintech
-                infrastructure that doesn't break.
+                Process automation and intelligent systems for any business. Specializing in API integrations, payments,
+                BBPS, and cards consultancy.
               </p>
             </div>
 
@@ -83,13 +79,6 @@ export default function Home() {
               >
                 Discuss an Idea. <ArrowRight className="w-5 h-5" />
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="px-8 text-base font-semibold border-primary/50 text-primary hover:bg-primary/10 transition-all duration-300 bg-transparent"
-              >
-                Explore Work
-              </Button>
             </div>
           </div>
 
@@ -99,20 +88,20 @@ export default function Home() {
               <div className="scan-effect"></div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div className="space-y-2">
-                  <div className="text-accent text-sm font-mono tracking-wider">UPI</div>
-                  <p className="text-xs text-muted-foreground">Real-time payments</p>
+                  <div className="text-accent text-sm font-mono tracking-wider">AUTOMATION</div>
+                  <p className="text-xs text-muted-foreground">For any business</p>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-accent text-sm font-mono tracking-wider">CARDS</div>
-                  <p className="text-xs text-muted-foreground">Credit & PPI</p>
+                  <div className="text-accent text-sm font-mono tracking-wider">PROCESS DESIGN</div>
+                  <p className="text-xs text-muted-foreground">Workflow optimization</p>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-accent text-sm font-mono tracking-wider">BBPS</div>
-                  <p className="text-xs text-muted-foreground">Bill payments</p>
+                  <div className="text-accent text-sm font-mono tracking-wider">CONSULTANCY</div>
+                  <p className="text-xs text-muted-foreground">APIs, Payments, BBPS</p>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-accent text-sm font-mono tracking-wider">AI/RECON</div>
-                  <p className="text-xs text-muted-foreground">Smart automation</p>
+                  <div className="text-accent text-sm font-mono tracking-wider">RECONCILIATION</div>
+                  <p className="text-xs text-muted-foreground">Smart matching & analytics</p>
                 </div>
               </div>
             </div>
@@ -125,89 +114,98 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="space-y-4 mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-balance">
-              Expertise Across{" "}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Fintech</span>
+              What I{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
+                Specialize In
+              </span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl">
-              Payment systems, process automation, and reconciliation—all built for scale and reliability.
+              General automation expertise with deep specialization in fintech infrastructure and payments consulting.
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Card className="group relative p-8 bg-gradient-to-br from-primary/10 to-transparent border-primary/30 hover:border-primary/60 hover:shadow-lg hover:shadow-primary/20 transition-all duration-500 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              <div className="relative z-10">
-                <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <Network className="w-7 h-7 text-foreground" />
-                </div>
-                <h3 className="text-2xl font-bold mb-3">Payment Rails</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Building robust infrastructure from ground zero.
-                </p>
-                <ul className="space-y-3 text-sm mb-8">
-                  <li className="flex items-start gap-3">
-                    <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    <span>UPI integration & transaction handling</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    <span>Credit cards & PPI payment processing</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    <span>BBPS bill payment system setup</span>
-                  </li>
-                </ul>
-              </div>
-            </Card>
-
+            {/* First Card: Automation (PRIMARY) */}
             <Card className="group relative p-8 bg-gradient-to-br from-accent/10 to-transparent border-accent/40 hover:border-accent/70 hover:shadow-lg hover:shadow-accent/20 transition-all duration-500 overflow-hidden ring-1 ring-primary/10">
               <div className="absolute inset-0 bg-gradient-to-br from-accent/0 to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               <div className="relative z-10">
                 <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-accent to-accent/60 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Zap className="w-7 h-7 text-background" />
                 </div>
-                <h3 className="text-2xl font-bold mb-3">AI & Automation</h3>
+                <h3 className="text-2xl font-bold mb-3">Automation for Everyone</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Process design and intelligent automation at scale.
+                  Design and build intelligent automation systems across any industry. Reduce manual work, drive
+                  efficiency, and scale operations.
                 </p>
                 <ul className="space-y-3 text-sm mb-8">
                   <li className="flex items-start gap-3">
                     <Cpu className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Process design & optimization</span>
+                    <span>Business process automation</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Cpu className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                    <span>AI-powered workflow automation</span>
+                    <span>AI-powered workflow intelligence</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Cpu className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
-                    <span>Intelligent reconciliation systems</span>
+                    <span>End-to-end system architecture</span>
                   </li>
                 </ul>
               </div>
             </Card>
 
+            {/* Second Card: Consultancy (SECONDARY) */}
             <Card className="group relative p-8 bg-gradient-to-br from-primary/10 to-transparent border-primary/30 hover:border-primary/60 hover:shadow-lg hover:shadow-primary/20 transition-all duration-500 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
               <div className="relative z-10">
                 <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                  <TrendingUp className="w-7 h-7 text-foreground" />
+                  <Code2 className="w-7 h-7 text-foreground" />
                 </div>
-                <h3 className="text-2xl font-bold mb-3">Reconciliation</h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">Transform payment data into insights.</p>
+                <h3 className="text-2xl font-bold mb-3">Fintech Consultancy</h3>
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  Build robust payment systems and API integrations. Partner with me to architect fintech operations.
+                </p>
                 <ul className="space-y-3 text-sm mb-8">
                   <li className="flex items-start gap-3">
                     <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    <span>Automated transaction reconciliation</span>
+                    <span>API integrations & architecture</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    <span>Real-time payment analytics dashboards</span>
+                    <span>Payment systems & operations</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
-                    <span>Dispute resolution & reporting</span>
+                    <span>Technical leadership & strategy</span>
+                  </li>
+                </ul>
+              </div>
+            </Card>
+
+            {/* Third Card: Payment Systems (TERTIARY) */}
+            <Card className="group relative p-8 bg-gradient-to-br from-primary/10 to-transparent border-primary/30 hover:border-primary/60 hover:shadow-lg hover:shadow-primary/20 transition-all duration-500 overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <div className="relative z-10">
+                <div className="w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-primary/60 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <BarChart3 className="w-7 h-7 text-foreground" />
+                </div>
+                <h3 className="text-2xl font-bold mb-3">Payments & BBPS</h3>
+                <p className="text-muted-foreground mb-6 leading-relaxed">
+                  Deep expertise in payment infrastructure and bill payment systems. Built to scale and reconcile
+                  seamlessly.
+                </p>
+                <ul className="space-y-3 text-sm mb-8">
+                  <li className="flex items-start gap-3">
+                    <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                    <span>UPI, credit cards, prepaid cards</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                    <span>BBPS integration & optimization</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Cpu className="w-4 h-4 text-accent mt-0.5 flex-shrink-0" />
+                    <span>Smart reconciliation systems</span>
                   </li>
                 </ul>
               </div>
@@ -223,34 +221,33 @@ export default function Home() {
       >
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-bold mb-12 text-balance">
-            Your Fintech{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-              Operations Partner
-            </span>
+            Automating Operations.{" "}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">Everywhere.</span>
           </h2>
 
           <div className="space-y-8 text-lg leading-relaxed text-muted-foreground">
             <p>
-              I'm Hardik, a freelance consultant specializing in fintech payment systems and process automation. I've
-              built expertise across{" "}
-              <span className="text-primary font-semibold">
-                UPI, credit/prepaid card integrations, BBPS, and complex payment workflows
+              I build intelligent automation systems for any business. My specialty is automating the tedious stuff—the
+              manual workflows, repetitive tasks, and error-prone processes that slow teams down.
+            </p>
+
+            <p>
+              Beyond general automation, I bring deep expertise in{" "}
+              <span className="text-accent font-semibold">
+                API integrations, payment systems, BBPS, and fintech operations
               </span>
-              —helping startups move money reliably while keeping operations lean.
+              . I've architected complex payment flows across UPI, credit cards, prepaid instruments, and bill payment
+              systems. This gives me a unique edge in understanding both the technical and operational challenges of
+              building fintech infrastructure.
             </p>
 
             <p>
-              Beyond payment rails, I'm passionate about{" "}
-              <span className="text-accent font-semibold">setting up robust processes and using AI to automate</span>{" "}
-              the tedious work that slows teams down. Whether it's reconciliation, dispute resolution, or end-to-end
-              payment workflows, I design systems that work silently in the background so your team can focus on growth.
-            </p>
-
-            <p>
-              My approach combines deep technical knowledge of payment systems with strategic thinking about process
-              design. I don't just implement integrations—I architect solutions that are scalable, maintainable, and
-              intelligent. The result? Payment systems that just work, operations that run smoother, and a team that's
-              freed up to focus on what truly matters.
+              My approach is consultative. I don't just build features—I partner with teams to architect operations from
+              the ground up, streamline existing systems, and design automation that multiplies productivity. Whether
+              you need general process automation or specialized fintech consultancy,{" "}
+              <span className="text-primary font-semibold">
+                I focus on solutions that scale, integrate cleanly, and work intelligently.
+              </span>
             </p>
           </div>
         </div>
@@ -260,14 +257,14 @@ export default function Home() {
       <section id="contact" className="py-32 px-6 border-t border-primary/20 relative">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl md:text-6xl font-bold mb-6 text-balance">
-            Ready to Build{" "}
+            Ready to Automate{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-              Fintech That Works?
+              Your Operations?
             </span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Let's architect payment systems that scale, automate operations intelligently, and keep your fintech running
-            like clockwork.
+            Let's build systems that reduce manual work, scale operations, and integrate seamlessly with your
+            infrastructure.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -277,14 +274,6 @@ export default function Home() {
               onClick={handleEmailClick}
             >
               Let's Connect <ArrowRight className="w-5 h-5" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              className="px-10 py-6 text-lg font-semibold border-primary/50 text-primary hover:bg-primary/10 transition-all bg-transparent"
-              onClick={() => (window.location.href = "mailto:okayhardik@gmail.com")}
-            >
-              okayhardik@gmail.com
             </Button>
           </div>
         </div>
@@ -296,28 +285,26 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div>
               <p className="text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                HARDIK
+                FLOWCRAFT
               </p>
-              <p className="text-sm text-muted-foreground">
-                Fintech payment systems & process automation for startups.
-              </p>
+              <p className="text-sm text-muted-foreground">Automation and fintech operations consultancy.</p>
             </div>
             <div>
-              <p className="text-sm font-semibold mb-4 text-foreground">Solutions</p>
+              <p className="text-sm font-semibold mb-4 text-foreground">Expertise</p>
               <ul className="space-y-3 text-sm text-muted-foreground">
                 <li>
                   <a href="#solutions" className="hover:text-primary transition">
-                    Payment Rails
+                    Automation
                   </a>
                 </li>
                 <li>
                   <a href="#solutions" className="hover:text-primary transition">
-                    AI & Automation
+                    Fintech Consultancy
                   </a>
                 </li>
                 <li>
                   <a href="#solutions" className="hover:text-primary transition">
-                    Reconciliation
+                    Payments & BBPS
                   </a>
                 </li>
               </ul>
@@ -344,7 +331,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-primary/20 pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 Hardik. All rights reserved.</p>
+            <p>&copy; 2025 FlowCraft. All rights reserved.</p>
           </div>
         </div>
       </footer>
