@@ -114,7 +114,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="space-y-4 mb-16">
             <h2 className="text-5xl md:text-6xl font-bold text-balance">
-              What I{" "}
+              What We{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
                 Specialize In
               </span>
@@ -134,7 +134,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3">Automation for Everyone</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Design and build intelligent automation systems across any industry. Reduce manual work, drive
+                  We design and build intelligent automation systems across any industry. Reduce manual work, drive
                   efficiency, and scale operations.
                 </p>
                 <ul className="space-y-3 text-sm mb-8">
@@ -163,7 +163,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-3">Fintech Consultancy</h3>
                 <p className="text-muted-foreground mb-6 leading-relaxed">
-                  Build robust payment systems and API integrations. Partner with me to architect fintech operations.
+                  Build robust payment systems and API integrations. Partner with us to architect fintech operations.
                 </p>
                 <ul className="space-y-3 text-sm mb-8">
                   <li className="flex items-start gap-3">
@@ -227,26 +227,26 @@ export default function Home() {
 
           <div className="space-y-8 text-lg leading-relaxed text-muted-foreground">
             <p>
-              I build intelligent automation systems for any business. My specialty is automating the tedious stuff—the
-              manual workflows, repetitive tasks, and error-prone processes that slow teams down.
+              We build intelligent automation systems for any business. Our specialty is automating the tedious
+              stuff—the manual workflows, repetitive tasks, and error-prone processes that slow teams down.
             </p>
 
             <p>
-              Beyond general automation, I bring deep expertise in{" "}
+              Beyond general automation, we bring deep expertise in{" "}
               <span className="text-accent font-semibold">
                 API integrations, payment systems, BBPS, and fintech operations
               </span>
-              . I've architected complex payment flows across UPI, credit cards, prepaid instruments, and bill payment
-              systems. This gives me a unique edge in understanding both the technical and operational challenges of
+              . We've architected complex payment flows across UPI, credit cards, prepaid instruments, and bill payment
+              systems. This gives us a unique edge in understanding both the technical and operational challenges of
               building fintech infrastructure.
             </p>
 
             <p>
-              My approach is consultative. I don't just build features—I partner with teams to architect operations from
-              the ground up, streamline existing systems, and design automation that multiplies productivity. Whether
-              you need general process automation or specialized fintech consultancy,{" "}
+              Our approach is consultative. We don't just build features—we partner with teams to architect operations
+              from the ground up, streamline existing systems, and design automation that multiplies productivity.
+              Whether you need general process automation or specialized fintech consultancy,{" "}
               <span className="text-primary font-semibold">
-                I focus on solutions that scale, integrate cleanly, and work intelligently.
+                we focus on solutions that scale, integrate cleanly, and work intelligently.
               </span>
             </p>
           </div>
